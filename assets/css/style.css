@@ -313,6 +313,7 @@ body {
   text-align: center;
 }
 #product1 h2{
+  margin-top: 30px;
   font-weight: 600;
 }
 #product1 h2 span{
@@ -441,11 +442,21 @@ td a i{
   color: #fff;
 }
 
+@media screen and (max-width: 820px) {
+  #product1 .pro-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+}
 
 @media screen and (max-width: 570px) {
   #product1 .pro{
     width: 100%;
   }
+
 }
 
 /* product1-end */
@@ -532,13 +543,14 @@ td a i{
   }
   
   #about-section .aobut-content h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     padding: 8px 0;
     color: #1B2A49;
   }
   #about-section .aobut-content h4{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
     color: #1B2A49;
   }
   #about-section .aobut-content p{
@@ -576,7 +588,8 @@ td a i{
     padding: 35px 0px 0px 0px;
   }
   #about-section .aobut-content h4{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
     color: #1B2A49;
   }
   #about-section .aobut-content p{
@@ -596,6 +609,13 @@ td a i{
   #about-section .about-content-side{
     float: right;
     text-align: end;
+  }
+}
+@media screen and (max-width: 475px) {
+  #about-section .about-img img{
+   width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
 
@@ -702,7 +722,7 @@ td a i{
   background-color: #f8a647;
   border: none;
   margin-left: 50px;
-  padding: 15px 50px;
+  padding: 15px 30px;
   border-radius: 10px;
   font-size: 15px;
   color: #000;
@@ -726,7 +746,26 @@ td a i{
     height: 40vh;
   }
 }
-
+@media screen and (max-width: 475px) {
+  #sm-banner h3{
+    font-size: 35px;
+    padding: 15px 10px;
+  }
+  #sm-banner span{
+    padding-bottom: 15px;
+    padding: 10px 10px;
+  }
+  #sm-banner .banner-box button{
+    background-color: #f8a647;
+    border: none;
+    margin-left: 50px;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000;
+  }
+}
 /* sm-banner-end */
 
 
@@ -734,7 +773,6 @@ td a i{
 .contact-bg{
   background-color: #2A4053;
   width: 100%;
-  height: 450px;
 }
 .contact-section{
   display: flex;
@@ -746,7 +784,8 @@ td a i{
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
-  margin-top: 85px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .logo-2{
@@ -772,6 +811,30 @@ td a i{
   color: #ffaa49;
 }
 
+@media screen and (max-width: 980px) {
+  .logo-2{
+    max-width: 140px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+  .contact-section h4{
+    font-size: 12px;
+  }
+  .contact-section p{
+    font-size: 11px;
+  }
+  
+  .contact-section a{
+    font-size: 11px;}
+  
+  .contact-section .follow{
+    margin-top: 20px;
+  }
+  
+  .contact-section .follow i{
+    padding-right: 8px;
+  }
+}
 
 @media screen and (max-width: 820px) {
   .logo-2{
@@ -781,24 +844,6 @@ td a i{
     width: 120px;
   }
   
-.contact-section h4{
-  font-size: 12px;
-}
-
-.contact-section p{
-  font-size: 11px;
-}
-
-.contact-section a{
-  font-size: 11px;}
-
-.contact-section .follow{
-  margin-top: 20px;
-}
-
-.contact-section .follow i{
-  padding-right: 8px;
-}
 }
 @media screen and (max-width: 765px){
   .logo-2{
@@ -813,6 +858,15 @@ td a i{
     margin-left: 0px;
     margin-bottom: 20px;
   }
+  
+.contact-section .col{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 }
 /* contact-section-end */ 
 
