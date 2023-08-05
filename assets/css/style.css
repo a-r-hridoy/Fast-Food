@@ -22,6 +22,7 @@ h2 {
   font-size: 46px;
   line-height: 54px;
   color: #222;
+  font-weight: 600;
 }
 
 h4 {
@@ -313,7 +314,7 @@ body {
   text-align: center;
 }
 #product1 h2{
-  margin-top: 30px;
+  margin-top: 70px;
   font-weight: 600;
 }
 #product1 h2 span{
@@ -671,7 +672,7 @@ td a i{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),  url(/assets/img/banner/5.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),  url(../assets/img/banner/5.jpg);
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -679,7 +680,7 @@ td a i{
 }
 
 #sm-banner .banner-box-2{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),  url(/assets/img/banner/6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),  url(../assets/img/banner/6.jpg);
   background-repeat: no-repeat;
   height: 50vh;
   background-size: cover;
